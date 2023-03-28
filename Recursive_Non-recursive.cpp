@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <vector>
 #include <stack>
@@ -76,7 +77,7 @@ vector<int> generateRandomArray(int n) {
 }
 int main()
 {
-    for (int k=1000; k<=10000;k+=1000){
+    for (int k=100; k<=1000;k+=100){
         vector<int> arr = generateRandomArray(k);
         int n = arr.size();
     
