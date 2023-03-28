@@ -10,8 +10,9 @@ void print_median(double median) {
 
 int main() {
     int n;
+    cout<<"Enter the array size : ";
     cin >> n;
-
+    cout<<"Enter the array  : ";
     priority_queue<int> max_heap; // stores the lower half of the list
     priority_queue<int, vector<int>, greater<int>> min_heap; // stores the upper half of the list
 
